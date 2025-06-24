@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemBookingRoot"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:padding="8dp"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tvBookingId"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="ID" />
+
+    <TextView
+        android:id="@+id/tvUserId"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="User" />
+
+    <TextView
+        android:id="@+id/tvRoomId"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Phòng" />
+
+    <TextView
+        android:id="@+id/tvCheckIn"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="Check-in" />
+
+    <TextView
+        android:id="@+id/tvCheckOut"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="Check-out" />
+
+    <TextView
+        android:id="@+id/tvTotalPrice"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Tổng tiền" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái" />
+
+    <TextView
+        android:id="@+id/tvCreatedAt"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="Ngày tạo" />
+</LinearLayout>

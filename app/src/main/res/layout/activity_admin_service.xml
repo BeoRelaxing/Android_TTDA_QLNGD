@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvServices"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <EditText android:id="@+id/etServiceName" android:hint="Tên dịch vụ"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etServiceDescription" android:hint="Mô tả"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etServicePrice" android:hint="Giá dịch vụ"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etServiceResortId" android:hint="Mã khu nghỉ dưỡng"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btnAddService" android:text="Thêm"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnUpdateService" android:text="Sửa"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnDeleteService" android:text="Xóa"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout> 

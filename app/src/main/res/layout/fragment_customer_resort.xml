@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="12dp">
+
+    <EditText
+        android:id="@+id/etSearchCustomerResort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tìm kiếm theo tên hoặc vị trí"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:inputType="text" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCustomerResorts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"/>
+</LinearLayout> 

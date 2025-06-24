@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center" android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giao diện quản lý Admin"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnResortManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý khu nghỉ dưỡng"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnRoomManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý phòng"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnServiceManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý dịch vụ"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btnBookingManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận đặt phòng của khách hàng"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btUserManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý người dùng"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btBKSVManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý đặt dịch vụ"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/bttbManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi thông báo"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btfbManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem đánh giá"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout> 

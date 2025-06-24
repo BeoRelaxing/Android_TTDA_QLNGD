@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvUsers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <EditText android:id="@+id/etUserName" android:hint="Tên"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etUserEmail" android:hint="Email"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etUserPassword" android:hint="Mật khẩu"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etUserPhone" android:hint="Số điện thoại"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etUserRole" android:hint="Vai trò"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btnUpdateUser" android:text="Sửa"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnDeleteUser" android:text="Xóa"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout> 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tìm kiếm theo tên khu nghỉ dưỡng" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tìm kiếm" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvResorts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <EditText android:id="@+id/etName" android:hint="Tên khu nghỉ dưỡng"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etLocation" android:hint="Địa chỉ"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etType" android:hint="Loại hình"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etDescription" android:hint="Mô tả"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etPriceRange" android:hint="Khoảng giá"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etAmenities" android:hint="Tiện nghi"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btnAdd" android:text="Thêm"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnUpdate" android:text="Sửa"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnDelete" android:text="Xóa"
+            android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout> 

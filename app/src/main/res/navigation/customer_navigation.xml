@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/customer_navigation"
+    app:startDestination="@id/navigation_resort">
+
+    <fragment
+        android:id="@+id/navigation_resort"
+        android:name="com.example.quanlykhunghiduong.CustomerActivity.ResortFragment"
+        android:label="Khu nghỉ dưỡng">
+        <argument
+            android:name="USER_ID"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.quanlykhunghiduong.CustomerActivity.ProfileFragment"
+        android:label="Thông tin cá nhân">
+        <argument
+            android:name="USER_ID"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_feedback"
+        android:name="com.example.quanlykhunghiduong.CustomerActivity.FeedbackFragment"
+        android:label="Đánh giá">
+        <argument
+            android:name="USER_ID"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.quanlykhunghiduong.CustomerActivity.NotificationsFragment"
+        android:label="Thông báo">
+        <argument
+            android:name="USER_ID"
+            app:argType="integer" />
+    </fragment>
+
+</navigation> 
